@@ -7,3 +7,5 @@
 02 body, p tag [link](https://github.com/thebrightsy/likelion_13th/blob/main/web_html/02_html_body_p.html)
 
 03 a, img tag [link](https://github.com/thebrightsy/likelion_13th/blob/main/web_html/03_html_link_img.html)
+
+04 div, span, ul, ol, li [link](https://github.com/thebrightsy/likelion_13th/blob/main/web_html/04_html_div_span.html)
