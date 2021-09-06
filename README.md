@@ -11,4 +11,4 @@
 04 div, span, ul, ol, li [link](https://github.com/thebrightsy/likelion_13th/blob/main/web_html/04_html_div_span.html)
 
 * CSS 기본 이해
-    * Toy Project - 나의 사진 갤러리 [이동](https://thebrightsy.github.io/likelion_13th/web_html/02_css_gallery/14_img_gallery.html) [code](https://github.com/thebrightsy/likelion_13th/blob/main/02_css_gallery/14_img_gallery.html)
+    * Toy Project - 나의 사진 갤러리 [이동](https://thebrightsy.github.io/likelion_13th/02_css_gallery/14_img_gallery.html) [code](https://github.com/thebrightsy/likelion_13th/blob/main/02_css_gallery/14_img_gallery.html)
