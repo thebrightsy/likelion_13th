@@ -20,10 +20,11 @@ for i in range(1,51,1):
     comment_all = soup.find_all('td', class_ = 'title')
    # print(len(comment_all))
 
-for one in comment_all:
-    temp = list(one.children)[6].strip()
-    # print(temp)
-    comment_50.append(temp)
+    for one in comment_all:
+        temp = list(one.children)[6].strip()
+        # print(temp)
+        comment_50.append(temp)
+
     time.sleep(1)
     print(comment_50)
 
