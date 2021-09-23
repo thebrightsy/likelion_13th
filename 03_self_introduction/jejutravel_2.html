@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c39edb7ce75d4178987ea36c67fe6a28 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c39edb7ce75d4178987ea36c67fe6a28" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c39edb7ce75d4178987ea36c67fe6a28 = L.map(
+        'map_c39edb7ce75d4178987ea36c67fe6a28', {
+        center: [33.36263356417785, 126.52950987550354],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_53c729bcc57a40d686aa2c1f0aa3ebb7 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c39edb7ce75d4178987ea36c67fe6a28);
+    
+        var marker_e6183b26c62a460783d1a935364cb176 = L.marker(
+            [33.24977470144148, 126.56775039700022],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c39edb7ce75d4178987ea36c67fe6a28);
+        
+    
+
+                var icon_278ae4586bc940b6b88cfeb66856ae62 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e6183b26c62a460783d1a935364cb176.setIcon(icon_278ae4586bc940b6b88cfeb66856ae62);
+            
+    
+            var popup_e434166bb60942b2890e1be5bbf19b15 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_53cd3b5e6ba84c209fcf4d2eaf0a9835 = $(`<div id="html_53cd3b5e6ba84c209fcf4d2eaf0a9835" style="width: 100.0%; height: 100.0%;">오는정김밥</div>`)[0];
+                popup_e434166bb60942b2890e1be5bbf19b15.setContent(html_53cd3b5e6ba84c209fcf4d2eaf0a9835);
+            
+
+            marker_e6183b26c62a460783d1a935364cb176.bindPopup(popup_e434166bb60942b2890e1be5bbf19b15)
+            ;
+
+            
+        
+    
+        var marker_cd074251b49745d396d23f0254f5f740 = L.marker(
+            [33.2384712786543, 126.47461878165682],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c39edb7ce75d4178987ea36c67fe6a28);
+        
+    
+
+                var icon_bb48d543ccb048879865233e666c185e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd074251b49745d396d23f0254f5f740.setIcon(icon_bb48d543ccb048879865233e666c185e);
+            
+    
+            var popup_5dfcbcd0a7404decb8e618fbbe632745 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3f1a4a5f2c0e4685925583a4975a9582 = $(`<div id="html_3f1a4a5f2c0e4685925583a4975a9582" style="width: 100.0%; height: 100.0%;">제주흑돼지와전복</div>`)[0];
+                popup_5dfcbcd0a7404decb8e618fbbe632745.setContent(html_3f1a4a5f2c0e4685925583a4975a9582);
+            
+
+            marker_cd074251b49745d396d23f0254f5f740.bindPopup(popup_5dfcbcd0a7404decb8e618fbbe632745)
+            ;
+
+            
+        
+    
+        var marker_5bd71a2d0bef446ab9da3646710fcc70 = L.marker(
+            [33.47815326078625, 126.36697565467851],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c39edb7ce75d4178987ea36c67fe6a28);
+        
+    
+
+                var icon_ebff9240430248a6b2d33cebcf15b2f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5bd71a2d0bef446ab9da3646710fcc70.setIcon(icon_ebff9240430248a6b2d33cebcf15b2f6);
+            
+    
+            var popup_2289ffda15d344459b42412a9137ac33 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ce6ce02e29a64b4084b8aa294b251ad5 = $(`<div id="html_ce6ce02e29a64b4084b8aa294b251ad5" style="width: 100.0%; height: 100.0%;">제주바다다</div>`)[0];
+                popup_2289ffda15d344459b42412a9137ac33.setContent(html_ce6ce02e29a64b4084b8aa294b251ad5);
+            
+
+            marker_5bd71a2d0bef446ab9da3646710fcc70.bindPopup(popup_2289ffda15d344459b42412a9137ac33)
+            ;
+
+            
+        
+    
+        var marker_9e2110b3f844422983f030e46d16b25f = L.marker(
+            [33.2444387670142, 126.41488457980664],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c39edb7ce75d4178987ea36c67fe6a28);
+        
+    
+
+                var icon_2d53ed91873f4c69812759c52f9f777c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e2110b3f844422983f030e46d16b25f.setIcon(icon_2d53ed91873f4c69812759c52f9f777c);
+            
+    
+            var popup_52ec128fdb084b3ea13d28cec12ad2d1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_331131535acd4c5c944d5c993066f05f = $(`<div id="html_331131535acd4c5c944d5c993066f05f" style="width: 100.0%; height: 100.0%;">더클리프</div>`)[0];
+                popup_52ec128fdb084b3ea13d28cec12ad2d1.setContent(html_331131535acd4c5c944d5c993066f05f);
+            
+
+            marker_9e2110b3f844422983f030e46d16b25f.bindPopup(popup_52ec128fdb084b3ea13d28cec12ad2d1)
+            ;
+
+            
+        
+    
+        var marker_0687fa464d224e47ad991eb8fe4b0b1d = L.marker(
+            [33.24298481164263, 126.41895076414889],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c39edb7ce75d4178987ea36c67fe6a28);
+        
+    
+
+                var icon_9b8204fe487d47a6b71ac43aca759c9e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0687fa464d224e47ad991eb8fe4b0b1d.setIcon(icon_9b8204fe487d47a6b71ac43aca759c9e);
+            
+    
+            var popup_d7876ae6ec444db98698acee7d1c4837 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_eec1441fcc414cf385d0cc1ce4bae30f = $(`<div id="html_eec1441fcc414cf385d0cc1ce4bae30f" style="width: 100.0%; height: 100.0%;">중문해녀의집</div>`)[0];
+                popup_d7876ae6ec444db98698acee7d1c4837.setContent(html_eec1441fcc414cf385d0cc1ce4bae30f);
+            
+
+            marker_0687fa464d224e47ad991eb8fe4b0b1d.bindPopup(popup_d7876ae6ec444db98698acee7d1c4837)
+            ;
+
+            
+        
+</script>

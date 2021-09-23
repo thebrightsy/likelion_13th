@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_3ac0b2e20ead4491a1a900827088e583 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_3ac0b2e20ead4491a1a900827088e583" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_3ac0b2e20ead4491a1a900827088e583 = L.map(
+        'map_3ac0b2e20ead4491a1a900827088e583', {
+        center: [37.576337693526305, 126.97690476880636],
+        zoom: 15,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_6a5ec5603179492a9027775f69a8c69e = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_3ac0b2e20ead4491a1a900827088e583);
+    
+        var marker_e2d192d671124ed5a021684a0e1ecc06 = L.marker(
+            [37.57119683343825, 126.97350618761364],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_3ac0b2e20ead4491a1a900827088e583);
+        
+    
+
+                var icon_cc19f634d059406b8707016d698a1c6a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2d192d671124ed5a021684a0e1ecc06.setIcon(icon_cc19f634d059406b8707016d698a1c6a);
+            
+    
+            var popup_fb6d958b7eb54a10aa6de71b3fd4a329 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9b2e53a5e51c4400aee4c4885316a845 = $(`<div id="html_9b2e53a5e51c4400aee4c4885316a845" style="width: 100.0%; height: 100.0%;">새문안교회</div>`)[0];
+                popup_fb6d958b7eb54a10aa6de71b3fd4a329.setContent(html_9b2e53a5e51c4400aee4c4885316a845);
+            
+
+            marker_e2d192d671124ed5a021684a0e1ecc06.bindPopup(popup_fb6d958b7eb54a10aa6de71b3fd4a329)
+            ;
+
+            
+        
+    
+        var marker_989f579700d04853ac8bfadd593e2271 = L.marker(
+            [37.5705830578291, 126.97904785295664],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_3ac0b2e20ead4491a1a900827088e583);
+        
+    
+
+                var icon_acc1d09d380b4e9e8f5cbe0aff195817 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_989f579700d04853ac8bfadd593e2271.setIcon(icon_acc1d09d380b4e9e8f5cbe0aff195817);
+            
+    
+            var popup_dc1f45d1414a4509b7e55f30035c9101 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8ffdc08df4564a62956328b113bf28ee = $(`<div id="html_8ffdc08df4564a62956328b113bf28ee" style="width: 100.0%; height: 100.0%;">스타벅스광화문D타워</div>`)[0];
+                popup_dc1f45d1414a4509b7e55f30035c9101.setContent(html_8ffdc08df4564a62956328b113bf28ee);
+            
+
+            marker_989f579700d04853ac8bfadd593e2271.bindPopup(popup_dc1f45d1414a4509b7e55f30035c9101)
+            ;
+
+            
+        
+    
+        var marker_c56c71a5c6a240b69e56a8baa2535a49 = L.marker(
+            [37.57303947262771, 126.97093005480713],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_3ac0b2e20ead4491a1a900827088e583);
+        
+    
+
+                var icon_44653665da05408fa96f4e0459cfdd3c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c56c71a5c6a240b69e56a8baa2535a49.setIcon(icon_44653665da05408fa96f4e0459cfdd3c);
+            
+    
+            var popup_5831104b07504602bc3a4d1ee2cb9c50 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_923e0c425b2942ffb957a6d16ba68752 = $(`<div id="html_923e0c425b2942ffb957a6d16ba68752" style="width: 100.0%; height: 100.0%;">힐사이드테이블</div>`)[0];
+                popup_5831104b07504602bc3a4d1ee2cb9c50.setContent(html_923e0c425b2942ffb957a6d16ba68752);
+            
+
+            marker_c56c71a5c6a240b69e56a8baa2535a49.bindPopup(popup_5831104b07504602bc3a4d1ee2cb9c50)
+            ;
+
+            
+        
+    
+        var marker_0f7f227a83e545268e54d71162a489b4 = L.marker(
+            [37.57115116012816, 126.97780741247863],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_3ac0b2e20ead4491a1a900827088e583);
+        
+    
+
+                var icon_523800d376e34d68ba112a1cb2921112 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0f7f227a83e545268e54d71162a489b4.setIcon(icon_523800d376e34d68ba112a1cb2921112);
+            
+    
+            var popup_02119d87f3884fec9428408b62b22697 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1699dbd3845b4f1fb8206d2e9e2ccc0c = $(`<div id="html_1699dbd3845b4f1fb8206d2e9e2ccc0c" style="width: 100.0%; height: 100.0%;">교보문고</div>`)[0];
+                popup_02119d87f3884fec9428408b62b22697.setContent(html_1699dbd3845b4f1fb8206d2e9e2ccc0c);
+            
+
+            marker_0f7f227a83e545268e54d71162a489b4.bindPopup(popup_02119d87f3884fec9428408b62b22697)
+            ;
+
+            
+        
+    
+        var marker_fd84bee61bdb47af98c2bd309b767fe1 = L.marker(
+            [37.57000348958506, 126.97315426829972],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_3ac0b2e20ead4491a1a900827088e583);
+        
+    
+
+                var icon_edbf0cb5b76a4e4d8b8363b7d4162003 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fd84bee61bdb47af98c2bd309b767fe1.setIcon(icon_edbf0cb5b76a4e4d8b8363b7d4162003);
+            
+    
+            var popup_293596ef5ab24db0b4607b61f82f3783 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_012299e11fca4de38995f59fa9998b9e = $(`<div id="html_012299e11fca4de38995f59fa9998b9e" style="width: 100.0%; height: 100.0%;">콘코디언빌딩</div>`)[0];
+                popup_293596ef5ab24db0b4607b61f82f3783.setContent(html_012299e11fca4de38995f59fa9998b9e);
+            
+
+            marker_fd84bee61bdb47af98c2bd309b767fe1.bindPopup(popup_293596ef5ab24db0b4607b61f82f3783)
+            ;
+
+            
+        
+</script>
