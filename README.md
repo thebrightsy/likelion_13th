@@ -19,4 +19,4 @@
     [code](https://github.com/thebrightsy/likelion_13th/blob/main/03_self_introduction/main.html)
 * 네이버 영화 댓글 수집 50 [code](https://github.com/thebrightsy/likelion_13th/blob/main/04_movie_review/14_review_assignment.py)
 * 프로젝트_유튜브 댓글 수집 [code](https://github.com/thebrightsy/likelion_13th/blob/main/05_youtube_review/youtube_0916.ipynb)
-* Data set 2000개 지도 시각화 [이동]((https://thebrightsy.github.io/likelion_13th/06_folium/police_data.html)
+* Data set 2000개 지도 시각화 [이동](https://thebrightsy.github.io/likelion_13th/06_folium/police_data.html)
