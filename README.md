@@ -15,7 +15,7 @@
 
 * CSS 기본 이해
     * Toy Project - 나의 사진 갤러리 [이동](https://thebrightsy.github.io/likelion_13th/02_css_gallery/14_img_gallery.html) [code](https://github.com/thebrightsy/likelion_13th/blob/main/02_css_gallery/14_img_gallery.html)
-    * 나의 소개 리스트 [이동](https://github.com/thebrightsy/likelion_13th/blob/main/03_self_introduction/main.html)
+    * 나의 소개 리스트 [이동](https://thebrightsy.github.io/likelion_13th/03_self_introduction/main.html)[code](https://github.com/thebrightsy/likelion_13th/blob/main/03_self_introduction/main.html)
 * 네이버 영화 댓글 수집 50 [code](https://github.com/thebrightsy/likelion_13th/blob/main/04_movie_review/14_review_assignment.py)
 * 프로젝트_유튜브 댓글 수집 [code](https://github.com/thebrightsy/likelion_13th/blob/main/05_youtube_review/youtube_0916.ipynb)
 * Data set 2000개 지도 시각화 [link](https://github.com/thebrightsy/likelion_13th/blob/main/06_folium/police_data.html)
