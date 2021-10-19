@@ -28,4 +28,4 @@
    - 최종발표 파일 [이동](https://github.com/thebrightsy/likelion_13th/blob/main/08_corona/trinity조_최종발표(최종본).pptx)
    
 06 파일럿프로젝트 
-   -네이버 광고 키워드 분석 [code](https://github.com/thebrightsy/likelion_13th/blob/main/11_pilot2/20211019_네이버키워드.ipynb))
+   -네이버 광고 키워드 분석[code](https://github.com/thebrightsy/likelion_13th/blob/main/11_pilot2/20211019_네이버키워드.ipynb)
