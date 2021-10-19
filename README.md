@@ -27,4 +27,4 @@
    - 위드코로나 영국 여론조사 데이터 시각화 [code](https://github.com/thebrightsy/likelion_13th/blob/main/08_corona/20211001_UK_여론조사_그래프.ipynb)
    - 최종발표 파일 [이동](https://github.com/thebrightsy/likelion_13th/blob/main/08_corona/trinity조_최종발표(최종본).pptx)
    
-06 파일럿프로젝트 / 네이버 광고 키워드 분석[code](https://github.com/thebrightsy/likelion_13th/blob/main/11_pilot2/20211019_네이버키워드.ipynb)
+06 파일럿프로젝트 / 네이버 광고 키워드 분석 [code](https://github.com/thebrightsy/likelion_13th/blob/main/11_pilot2/20211019_네이버키워드.ipynb)
